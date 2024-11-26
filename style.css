@@ -1,0 +1,1154 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+    box-shadow: none;
+    text-align: left;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1c5664;
+    font-family: 'ClinicaPro', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #44abbd;
+    background-color: transparent;
+}
+
+.log{
+ /* The image used */
+background-image: url("img/abrir-clinica-dental-documentacion.jpg");
+
+/* Add the blur effect */
+filter: blur(10px);
+-webkit-filter: blur(10px); /* For Safari compatibility */
+
+position: relative;
+height: 800px;
+width: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+}
+.imagenbg{
+    background-color: transparent;
+    margin: 0%;
+    padding: 0%;
+    filter:none;
+    display: none;
+    z-index: 1;
+}
+
+  .overlay {
+    padding-top: 0%;
+    position: relative;
+    top: -200px;
+    left: 20%;
+    z-index: 2;
+    margin-top: 0px;
+    margin-left: 20%;
+    border-bottom: transparent;
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    
+    );
+    transform: translate(-50%, -50%);
+}
+.bg-text {
+    font-family: 'ClinicaPro', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 0px;
+    top: -950px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+}
+  @font-face {
+    font-family: 'ClinicaPro',sans-serif;
+    src: url(fonts/ClinicaPro-Black.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'ClinicaPro', sans-serif;
+    
+}
+.cuadro{
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 50%;
+    top: -900px;
+    transform: translateX(-50%);
+    
+    margin: 0;
+    width: auto;
+    min-width: 150px;
+    max-width: 80%;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: rgba(68, 171, 189, 0.308);
+    border: transparent;
+    transition: background-color 0.3s ease;
+}
+.cuadro:hover{
+    background-color: rgba(68, 171, 189, 0.508);
+}
+
+@media (max-width: 768px) {
+    .cuadro {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: transparent;
+}
+
+ul li img{
+    position: relative;
+    transform: none;
+}
+
+footer{
+    position: relative;
+    bottom: auto;
+    width: 100%;
+}
+footer{
+    background: #1c5664;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#84ade0;
+     
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+ 
+ ul li a{
+  font-size: large;
+ }
+ .footer-1 h4{
+	margin-bottom: 0 !important;
+	font-family: 'Arial';
+	color: #9cc5f0;
+	font-size: 16px
+}
+
+.footer-1 h5{
+	margin-bottom: 0 !important;
+	font-family: 'Arial';
+	color: #ffffff;
+	font-size: 14px
+}
+.thsn-footer-widget .menu-item{
+	padding-bottom: 0;
+}
+
+input, select, textarea {
+  width: 100%; /* Asegura que ocupen todo el ancho posible */
+  max-width: 500px; /* Limita el ancho máximo */
+  height: 40px; /* Altura de los inputs */
+  margin: 0.5rem;
+  border: 1px solid black;
+  border-radius: 20px; /* Bordes curvos */
+  padding: 10px; /* Espacio interior */
+  font-family: 'ClinicaPro', sans-serif;
+  text-align: center; /* Centra el texto */
+}
+
+ .registro{
+  background-color: rgb(255, 255, 255);
+  font-family: 'ClinicaPro', sans-serif;
+ }
+
+ input[type="submit"] {
+  margin: 0;
+  width: auto;
+  min-width: 150px;
+  max-width: 80%;
+  padding: 15px 30px;
+  background-color: rgba(32, 193, 221, 0.308);
+  border-radius: 20px; /* Bordes curvos */
+  border: transparent;
+  text-align: center;
+  height: auto;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(172, 221, 230, 0.726);
+}
+
+ .centrar-form{
+  width: 80%; 
+  max-width: 500px;
+  margin-top: 20px;
+  margin: auto 20;
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
+  
+}
+
+
+
+select option {
+  color: #000; /* Asegúrate de que el color del texto de las opciones sea visible */
+  background-color: #fff; /* Para que el fondo de las opciones sea blanco */
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px; /* Ajusta según sea necesario */
+    margin: 0.5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+label{
+ 
+  font-weight:550;
+}
+
+.ola{
+  align-items: center;
+  text-align: center;
+}
+h1.form {
+  
+  border-bottom: 1px solid black;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-width: 100%;
+}
+form {
+  background: linear-gradient(to bottom, #aceaf5a1, #d5dde6); 
+  border-radius: 30px; 
+  padding: 20px; 
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); 
+  width: 100%; 
+  max-width: 600px; 
+  margin: 20px auto; 
+}
+h1{
+  font-family: 'ClinicaPro', sans-serif;
+}
+
+/* a partir de aqui empieza lo mio OSKAR */
+
+.user-table {
+  table-layout: auto; 
+  width: 100%;
+  margin: auto 0;
+  margin-top: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th, .user-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #1c5664;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tabla {
+  position: relative;
+  left: 16%; /* Ajusta este valor si quieres moverla horizontalmente */
+  width: 50%; 
+  max-width: 750px; 
+  margin-top: -15%; /* Incrementa este valor negativo para subir la tabla más */
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #aceaf5a1, #d5dde6); 
+  border-radius: 30px; 
+  padding: 20px; 
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.tabla2 {
+  overflow-x: auto;
+  position: relative;
+  left: 16%; /* Ajusta este valor si quieres moverla horizontalmente */
+  width: 50%; 
+  max-width: 750px; 
+  margin-top: 5%; /* Incrementa este valor negativo para subir la tabla más */
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #aceaf5a1, #d5dde6); 
+  border-radius: 30px; 
+  padding: 20px; 
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.BotonCita{
+  position: relative;
+ 
+ 
+  margin: 0 auto;
+  width: auto;
+  min-width: 150px;
+  max-width: 80%;
+  padding: 15px 30px;
+  background-color: rgba(32, 193, 221, 0.308);
+  border-radius: 20px; /* Bordes curvos */
+  border: transparent;
+  text-align: center;
+  height: auto;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+ 
+}
+
+.BotonCita:hover{
+  background-color:#1c5664;
+  transform: translateY(-3px);
+  color: white;
+}
+
+ .centrar-form{
+  width: 80%; 
+  max-width: 500px;
+  margin-top: 20px;
+  margin: auto 20;
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
+  
+}
+
+.BotonModificar{
+  position: relative;
+  left: 0%;
+ 
+  margin: auto 0;
+  width: auto;
+  min-width: 150px;
+  max-width: 80%;
+  padding: 15px 30px;
+  background-color: rgba(32, 193, 221, 0.308);
+  border-radius: 20px; /* Bordes curvos */
+  border: transparent;
+  text-align: center;
+  height: auto;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+ 
+}
+
+.BotonModificar:hover{
+  background-color:#1c5664;
+  transform: translateY(-3px);
+  color: white;
+}
+
+
+/* AQUI TERMINA LO MIO OSKAR */
+
+/*prueba boton causa */
+
+.ParaCentrar{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  margin-top: 15px;
+}
+
+.botonCita{ 
+  background-color: #13ADAF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/* fondo del pop up */
+.crearcita{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.cuestionariocita{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.close { /* Boton de cerrar */
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Foto {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.perfil-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 280px; /* Define una altura máxima para evitar que crezca demasiado */
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 576px) {
+  .perfil-img {
+      max-width: 70%;
+      max-height: 200px; /* Cambia el tamaño para que se adapte mejor en pantallas pequeñas */
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 576px) and (max-width: 768px) {
+  .perfil-img {
+      max-width: 80%;
+      max-height: 250px;
+  }
+}
+
+
+
+.contenedorPuntos {
+  font-family: 'ClinicaPro', sans-serif;
+  max-width: 1000px;
+  margin-top: -33%;
+  margin-left: 23%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.seccion-puntos {
+  margin-bottom: 20px;
+}
+
+.seccion-puntos h2 {
+  color: #007BFF;
+}
+
+.seccion-puntos p {
+  font-size: 1.2em;
+}
+
+.tratamientos {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.tratamiento {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.tratamiento h3 {
+  color: #007BFF;
+}
+
+.tratamiento p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.canje-button {
+  background-color: #17c1c4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.canje-button:hover{
+  transform: translateY(-3px);
+  background-color: #13ADAF;
+}
+.canje-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+
+.contenedorCanjesHechos {
+  font-family: 'ClinicaPro', sans-serif;
+  max-width: 400px;
+  margin-top: -21%;
+  margin-left: 77%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+
+
+/* Estilos para la tabla que muestra los canjes hechos */
+.tablaCanjeables {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: left;
+  position: relative;
+}
+
+.tablaCanjeables th, .tablaCanjeables td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tablaCanjeables th {
+  background-color: #007BFF;
+  color: white;
+}
+
+.tablaCanjeables td {
+  background-color: #f9f9f9;
+}
+
+.tablaCanjeables tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tablaCanjeables td[colspan='3'] {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+
+/* Estilos para el header que te lleva a la pestaña de canjeables */
+.headercanjeables {
+  font-family: 'ClinicaPro', sans-serif;
+
+  background: linear-gradient(to bottom, #aceaf5a1, #d5dde6); 
+  color: rgb(0, 0, 0);
+  padding: 20px 30px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  text-align: center; /* Centrado del texto */
+  font-size: 24px; /* Tamaño de fuente */
+  max-width: 40%; /* Ancho máximo */
+  margin: 20px; /* Margen alrededor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+.CanjeablesDato {
+  font-family: 'ClinicaPro', sans-serif;
+    font-weight: bold;
+    margin-top: -30%;
+
+}
+
+
+/* Estilos para el botón */
+.CanjeablesDatoBtn {
+  font-family: 'ClinicaPro', sans-serif;
+
+  background: linear-gradient(to bottom, #aceaf5a1, #d5dde6); 
+  color: rgb(0, 0, 0); 
+  padding: 12px 24px; /* Espaciado interno */
+  border: none; /* Elimina el borde por defecto */
+  border-radius: 10px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano al pasar por encima */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  margin-left: 15%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para el botón */
+.CanjeablesDatoBtn:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  transform: translateY(-3px); /* Ligeramente hacia arriba */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+ /* Estilos para el toast */
+ .toast {
+  visibility: hidden;
+  min-width: 250px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+/* Clase activa para mostrar el toast */
+.toast.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.puntosbg{
+  /* The image used */
+ background-image: url("https://files.catbox.moe/anth80.jpg");
+ 
+ /* Add the blur effect */
+ filter: blur(10px);
+ -webkit-filter: blur(10px); /* For Safari compatibility */
+ 
+ position: relative;
+ height: 800px;
+ width: 100%;
+ 
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: 1;
+ }
+
+ .Logout {
+  font-family: 'ClinicaPro', sans-serif;
+  margin-left: 5%;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para el botón */
+.Logout:hover {
+  background-color: #c0392b; /* Rojo más oscuro al pasar el mouse */
+  transform: translateY(-3px); /* Ligeramente hacia arriba */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+
+/* Paleta de colores */
+:root {
+  --color-fondo: #FFFFFF;
+  --color-principal: #C1E5F5;
+  --color-secundario: #F2F2F2;
+  --color-texto: #044659;
+  --color-acento: #13ADAF;
+}
+
+body {
+  background-color: var(--color-fondo);
+  font-family: 'ClinicaPro', sans-serif;
+  color: var(--color-texto);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h2, h3 {
+  color: var(--color-texto);
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Contenedor */
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Estilo para los formularios */
+form {
+  background-color: var(--color-secundario);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  color: var(--color-texto);
+  font-weight: bold;
+}
+
+
+button {
+  background-color: var(--color-acento);
+  color: var(--color-fondo);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f8e8e;
+}
+
+/* Estilos para las tablas */
+.tabla-reporte {
+  width: 100%;
+  max-width: 700px;
+  margin: 10px auto;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.tabla-reporte th,
+.tabla-reporte td {
+  padding: 8px;
+  border: 1px solid var(--color-principal);
+  text-align: left;
+}
+
+.tabla-reporte th {
+  background-color: var(--color-principal);
+  color: var(--color-texto);
+}
+
+.tabla-reporte td {
+  background-color: var(--color-secundario);
+}
+
+.formgenero{
+position: relative;
+margin-left: 33%;
+}
+
+.reportesgenerales{
+  position: relative;
+  margin-left: 33%;
+}
+.headergenerales{
+  font-family: 'ClinicaPro', sans-serif;
+  position: relative;
+  margin-left: 30%;
+  font-weight: bold;
+  color: var(--color-texto);
+}
+
+
+.perfil-medico {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.perfil-medico h3 {
+  margin-bottom: 15px;
+}
+.perfil-medico p {
+  margin: 5px 0;
+}
+
+.citas{
+  text-align: center;
+}
+.ACOMODO {
+  position: relative;
+  left: 20%;
+  top: -180px;
+}
+.LogoutMedico{
+  font-family: 'ClinicaPro', sans-serif;
+  position: relative;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Efecto hover para el botón */
+.LogoutMedico:hover {
+  background-color: #c0392b; /* Rojo más oscuro al pasar el mouse */
+  transform: translateY(-3px); /* Ligeramente hacia arriba */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.Reportes {
+  margin-left: 70%;
+  margin-top: -400px;
+}
+
+
+.Reportes button {
+  position: relative;
+  border-radius: 5px;
+  width: 70%; 
+  margin: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Reportes button:hover{
+  transform: translateY(-3px); /* Ligeramente hacia arriba */
+}
+
+.cuadro1 p {
+  margin: 10px 0; /* Espaciado entre los párrafos */
+  line-height: 1.5; /* Mejora la legibilidad del texto */
+  font-size: 16px; /* Ajusta el tamaño del texto */
+  text-align: left;
+}
+
+.cuadro1 h2 {
+  font-size: 24px; /* Tamaño del encabezado */
+  font-weight: bold;
+  margin-bottom: 15px; /* Espaciado debajo del encabezado */
+  text-align: left;
+}
+
+.cuadro1 span {
+  font-weight: normal; /* Define un peso normal para los elementos de texto dentro del cuadro */
+  font-size: 16px;
+}
+
+.carousel-container {
+  background-color: #e9e9e9; /* Color gris claro de fondo para el carrusel */
+  border-radius: 10px;
+  height: 530px;
+  width: 600px;
+  padding: 20px;
+  margin-top: 10px; /* Ajusta el valor para acercarlo más a .cuadro1 */
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  left: 90px;
+}
+
+
+.carousel-inner img {
+  object-fit: contain;  /* Esto hace que las imágenes se ajusten al contenedor sin distorsionarse */
+  width: 50%;
+  height: 70%;
+  max-height: 600px;
+  border-bottom: transparent;
+  mask-image: linear-gradient(
+      black 80%,
+      transparent
+  
+  );
+  
+}
+
+.containerIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 50px;
+  flex-wrap: wrap;
+  margin-top: -500px;
+}
+
+.card {
+  background-color: #5d6dff; /* Azul del diseño */
+  color: #000000;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.card .icon img {
+  width: 80px;
+  height: 80px;
+}
+
+@media (max-width: 768px){
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 90%;
+  }
+}
+
+.carousel-item{
+  max-height: 530px;
+}
+
+.regist{
+  font-weight: 300;
+  padding-top: 10px;
+}
+.pie{
+  height: 5%;
+  width: 20%;
+  position: relative;
+  max-height: 100px;
+  padding-bottom: 0;
+}
+
+
+.especialidades .especialidad {
+  margin-bottom: 15px;
+  position: relative;
+  background-color: rgba(235, 235, 235, 0.336);
+  border: 1px;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  left: 20px;
+  width: 70%;
+}
+
+.especialidades .detalle {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  background: #f9f9f9;
+  padding: 4px;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 16px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.21);
+  align-items: center;
+ 
+  
+
+}
+
+.especialidades .especialidad:hover .detalle {
+  max-height: 100px;
+  opacity: 1;
+  background-color: rgba(68, 171, 189, 0.308);
+}
+.cuadro1 h5 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Espaciado entre columnas */
+  margin: 20px;
+}
+
+.left-section {
+  flex: 1; /* Toma el espacio restante */
+  text-align: left; /* Alineación a la izquierda */
+}
+
+.right-section {
+  flex: 1; /* Mismo ancho que la columna izquierda */
+  max-width: 50%; /* Limita el tamaño */
+}
+
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+.privacy-notice {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.privacy-link {
+  color: #1abc9c; /* Color verde para destacar */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.privacy-link:hover {
+  color: #16a085; /* Color más oscuro al pasar el cursor */
+  text-decoration: underline;
+}
+.icon1 img {
+  width: 40px;
+  height: 40px;
+ 
+}
+
+.icon1 {
+  display: inline-flex;          /* Flexbox inline */
+  justify-content: flex-end;     /* Alinea las imágenes a la derecha */
+  align-items: center;       
+  position: relative; 
+  padding: 5px  ;
+  left: 90%;
+  top: -10%; /* Centra verticalmente (si es necesario) */
+}
+
+ /* Estilo del formulario */
+ .CitasBotonEstado {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/* Estilo del botón */
+.btnCompletada {
+  background-color: #4fa3d1; /* Tonalidad de azul suave */
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto de hover (al pasar el cursor) */
+.btnCompletada:hover {
+  background-color: #2a8bb7; /* Azul más oscuro para el hover */
+  transform: translateY(-2px); /* Efecto sutil de elevación */
+}
+
+/* Efecto de focus (cuando el botón es enfocado) */
+.btnCompletada:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(79, 163, 209, 0.5); /* Resaltado azul cuando se hace foco */
+}
+
+/* Estilo para el ícono (si es necesario) */
+.CitasBotonEstado {
+  margin-right: 8px; /* Espacio entre el ícono y el texto */
+}
+
+.error-message {
+  background-color: #dc3545; /* Rojo para error */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+  opacity: 0; /* Inicialmente invisible */
+  visibility: hidden; /* También lo hace no interactuable */
+  transition: opacity 0.5s ease, visibility 0s 0.5s; /* Desvanecimiento suave */
+}
+
+/* Clase para mostrar el mensaje de error */
+.error-message.show {
+  opacity: 1; /* Hace el mensaje visible */
+  visibility: visible; /* Hace el mensaje interactuable */
+  transition: opacity 0.5s ease, visibility 0s; /* Desvanecimiento suave */
+}
+
